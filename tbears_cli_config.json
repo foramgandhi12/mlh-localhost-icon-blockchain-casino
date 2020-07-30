@@ -1,8 +1,8 @@
 {
   "uri": "https://bicon.net.solidwallet.io/api/v3",
   "nid": "0x3",
-  "keyStore": "keystores/test_icx.json",
-  "from": "hxac5688caf5a0c9742cffab2311d7b5728c569d10",
+  "keyStore": "keystores/my_keystore.json",
+  "from": "hx0ab6a379bcde3e48e9c7f29820d7cccba18b91e4",
   "to": "cx0000000000000000000000000000000000000000",
   "stepLimit": "0x50000000",
   "deploy": {
