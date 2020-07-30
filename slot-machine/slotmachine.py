@@ -78,9 +78,7 @@ class SlotMachine(IconScoreBase):
             try:
                 self.icx.transfer(self.msg.sender, payout)
                 self.FundTransfer(self.msg.sender, payout, False)
-                Logger.info(
-                    f"Player won. Sent winner ({self.msg.sender}) {payout}.", TAG
-                )
+                Logger.info(f"Player won. Sent winner ({self.msg.sender}) {payout}.", TAG)
             except:
                 Logger.info(f"Problem. Winnings not sent. Returning bet.", TAG)
                 revert("Problem. Winnings not sent. Returning bet.")
